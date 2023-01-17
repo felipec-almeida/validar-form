@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="header">
+        <h2>Criar Conta</h2>
+      </div>
+
+      <form action="" method="POST" id="form">
+        <div class="form-control" id="form-user">
+          <label for="username">Nome</label>
+          <input type="text" placeholder="Digite o Nome..." id="username">
+        </div>
+
+        <div class="form-control" id="form-email">
+          <label for="user-email">Email</label>
+          <input type="email" placeholder="Digite o Email..." id="user-email">
+        </div>
+
+        <div class="form-control" id="form-cpf">
+          <label for="user-cpf">CPF</label>
+          <input type="text" maxlength="14" placeholder="Digite o CPF..."
+            id="user-cpf" class="user-cpf">
+        </div>
+
+        <div class="form-control" id="form-password">
+          <label for="user-password">Senha</label>
+          <input type="password" placeholder="Digite a senha..."
+            id="user-password" class="user-password">
+        </div>
+
+        <div class="form-control" id="form-password2">
+          <label for="user-password2">Repetir Senha</label>
+          <input type="password" placeholder="Repita a senha..."
+            id="user-password2" class="user-password">
+        </div>
+
+        <div class="form-control">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+
+    </div>
+
+    <script src="./assets/js/ValidacaoDeCPF.js"></script>
+    <script src="./assets/js/validaSenha.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <!-- <script src="./assets/js/ValidacaoDeCPF.js"></script> -->
+  </body>
+
+</html>
